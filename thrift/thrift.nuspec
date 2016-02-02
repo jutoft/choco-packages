@@ -8,7 +8,7 @@
     <version>0.9.3</version>
     <authors>Apache Software Foundation</authors>
     <owners>Mike Chaliy and Jesper Utoft</owners>
-    <summary>The Apache Thrift software framework, for scalable cross-language services development, combines a software stack with a code generation engine to build services that work efficiently and seamlessly between C++, Java, Python, PHP, Ruby, Erlang, Perl, Haskell,
+    <summary>The Apache Thrift software framework, for scalable cross-language services development, combines a software stack with a code generation engine to build services that work efficiently and seamlessly between C++, Java, Python, PHP, Ruby, Erlang, Perl, Haskell, C#, Cocoa, JavaScript, Node.js, Smalltalk, OCaml and Delphi and other languages.</summary>
     <description>Apache Thrift aims to embody the following values:
 •Simplicity Thrift code is simple and approachable, free of unnecessary dependencies.
 •Transparency Thrift conforms to the most common idioms in all languages.
