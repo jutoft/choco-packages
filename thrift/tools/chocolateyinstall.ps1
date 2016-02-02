@@ -24,7 +24,6 @@ if (![System.IO.Directory]::Exists($destination)) {[System.IO.Directory]::Create
 
 Get-ChocolateyWebFile $packageName $fileFullPath $url $url64bit -checkSum $checkSum -checksumType $checksumType -checkSum64 $checkSum64 -checksumType64 $checksumType64
 
-Write-ChocolateySuccess $packageName
 } catch {
 Write-ChocolateyFailure $packageName $($_.Exception.Message)
 throw
