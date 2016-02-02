@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>thrift</id>
+    <title>thrift</title>
+    <version>0.9.3</version>
+    <authors>Apache Software Foundation</authors>
+    <owners>Mike Chaliy and Jesper Utoft</owners>
+    <summary>The Apache Thrift software framework, for scalable cross-language services development, combines a software stack with a code generation engine to build services that work efficiently and seamlessly between C++, Java, Python, PHP, Ruby, Erlang, Perl, Haskell,
+    <description>Apache Thrift aims to embody the following values:
+•Simplicity Thrift code is simple and approachable, free of unnecessary dependencies.
+•Transparency Thrift conforms to the most common idioms in all languages.
+•Consistency Niche, language-specific features belong in extensions, not the core library.
+•Performance Strive for performance first, elegance second.
+    </description>
+    <projectUrl>https://thrift.apache.org/</projectUrl>
+    <packageSourceUrl>https://github.com/jutoft/choco-packages</packageSourceUrl>
+    <!--<projectSourceUrl></projectSourceUrl>
+    <docsUrl></docsUrl>
+    <mailingListUrl></mailingListUrl>
+    <bugTrackerUrl></bugTrackerUrl>-->
+    <tags>thrift</tags>
+    <copyright>Copyright 2015 Apache Software Foundation</copyright>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/thrift.png</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="__VERSION__" />
+      <dependency id="" />
+    </dependencies>-->
+    <!--<releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes>-->
+    <!--<provides></provides>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
